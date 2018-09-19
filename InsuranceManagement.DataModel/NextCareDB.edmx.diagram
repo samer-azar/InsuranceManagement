@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2cd66b94009f46f7af1ebe2f19b398b9" Name="Diagram1">
+        <EntityTypeShape EntityType="NextCareModel.Beneficiary" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NextCareModel.CaseCategory" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NextCareModel.CaseType" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NextCareModel.Claim" Width="2.125" PointX="7.5" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="NextCareModel.HealthCareProvider" Width="1.5" PointX="5.25" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NextCareModel.HealthCareProviderType" Width="1.5" PointX="3" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NextCareModel.InsurancePolicy" Width="1.5" PointX="5.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NextCareModel.MedicalCase" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="NextCareModel.MedicalHistory" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="NextCareModel.Physician" Width="1.5" PointX="5.25" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NextCareModel.PolicyInformation" Width="1.5" PointX="3" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NextCareModel.sysdiagram" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="NextCareModel.FK_InsurancePolicy_Beneficiary" ManuallyRouted="false" />
+        <AssociationConnector Association="NextCareModel.FK_MedicalHistory_MedicalHistory" ManuallyRouted="false" />
+        <AssociationConnector Association="NextCareModel.FK_MedicalCase_CaseCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="NextCareModel.FK_MedicalCase_CaseType" ManuallyRouted="false" />
+        <AssociationConnector Association="NextCareModel.FK_Claim_HealthCareProvider" ManuallyRouted="false" />
+        <AssociationConnector Association="NextCareModel.FK_Claim_InsurancePolicy" ManuallyRouted="false" />
+        <AssociationConnector Association="NextCareModel.FK_Claim_Physician" ManuallyRouted="false" />
+        <AssociationConnector Association="NextCareModel.FK_HealthCareProvider_HealthCareProviderType" ManuallyRouted="false" />
+        <AssociationConnector Association="NextCareModel.FK_InsurancePolicy_PolicyInformation" ManuallyRouted="false" />
+        <AssociationConnector Association="NextCareModel.FK_MedicalHistory_MedicalCase" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

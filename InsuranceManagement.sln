@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Data Access", "1. Data Access", "{96A78364-AA33-44FF-93DB-38EF7A86CF6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. User Interface", "3. User Interface", "{D4BC75A7-00EF-460E-9CBF-44184A9B2B7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceManagement.Winforms", "InsuranceManagement.Winforms\InsuranceManagement.Winforms.csproj", "{B017A81D-6CB4-4F93-A7D9-22B7C177F612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceManagement.WebApi", "InsuranceManagement.WebApi\InsuranceManagement.WebApi.csproj", "{6614F40C-02F9-4A25-A8DD-D50999A069CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceManagement.DataModel", "InsuranceManagement.DataModel\InsuranceManagement.DataModel.csproj", "{DF7EA3BE-85FC-4FA7-8585-4EDB04B80200}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Business Logic", "2. Business Logic", "{DB64311B-DA23-45B0-A916-4594363B10FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceManagement.LoggerLibrary", "InsuranceManagement.LoggerLibrary\InsuranceManagement.LoggerLibrary.csproj", "{9E2C4A79-C217-48AB-861F-F970F252DAAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B017A81D-6CB4-4F93-A7D9-22B7C177F612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B017A81D-6CB4-4F93-A7D9-22B7C177F612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B017A81D-6CB4-4F93-A7D9-22B7C177F612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B017A81D-6CB4-4F93-A7D9-22B7C177F612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6614F40C-02F9-4A25-A8DD-D50999A069CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6614F40C-02F9-4A25-A8DD-D50999A069CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6614F40C-02F9-4A25-A8DD-D50999A069CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6614F40C-02F9-4A25-A8DD-D50999A069CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF7EA3BE-85FC-4FA7-8585-4EDB04B80200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF7EA3BE-85FC-4FA7-8585-4EDB04B80200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF7EA3BE-85FC-4FA7-8585-4EDB04B80200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF7EA3BE-85FC-4FA7-8585-4EDB04B80200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E2C4A79-C217-48AB-861F-F970F252DAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E2C4A79-C217-48AB-861F-F970F252DAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E2C4A79-C217-48AB-861F-F970F252DAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E2C4A79-C217-48AB-861F-F970F252DAAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B017A81D-6CB4-4F93-A7D9-22B7C177F612} = {D4BC75A7-00EF-460E-9CBF-44184A9B2B7C}
+		{6614F40C-02F9-4A25-A8DD-D50999A069CA} = {DB64311B-DA23-45B0-A916-4594363B10FC}
+		{DF7EA3BE-85FC-4FA7-8585-4EDB04B80200} = {96A78364-AA33-44FF-93DB-38EF7A86CF6D}
+		{9E2C4A79-C217-48AB-861F-F970F252DAAE} = {DB64311B-DA23-45B0-A916-4594363B10FC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BEA079C-D716-4DEA-A18E-D5F97C113DD5}
+	EndGlobalSection
+EndGlobal
